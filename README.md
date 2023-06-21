@@ -114,7 +114,9 @@ The following environment variables are required to run the application:
 
 - `PORT`: Port number for the API server (default: 3000)
 - `MONGODB_URI`: MongoDB connection string
-- `CLOUDINARY_URL`: Cloudinary environment variable for storing images
+- `CLOUDINARY_CLOUD_NAME`: Cloudinary environment variable for storing cloud name
+ - `CLOUDINARY_API_KEY`: Cloudinary environment variable for storing API key
+ - `CLOUDINARY_API_SECRET`: Cloudinary environment variable for storing API secret key
 
 ## Testing
 
